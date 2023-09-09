@@ -17,5 +17,10 @@ namespace UnitTesting
         {
             return a - b;
         }
+
+        public int Multiplicar(int a, int b)
+        {
+            return a * b;
+        }
     }
 }

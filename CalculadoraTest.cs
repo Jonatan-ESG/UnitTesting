@@ -57,6 +57,29 @@ namespace UnitTesting
 
         }
 
+
+        public void Calculadora_Multiplicar_RetornaEntero()
+        {
+            //A - Arrage, obtener todo lo que se necesita 
+            Calculadora calculadora = new Calculadora();
+            int numeroUno = 2;
+            int numeroDos = 1;
+
+            //A - Act, Ejecutar la función
+            int resultado = calculadora.Multiplicar(numeroUno, numeroDos);
+
+            //A - Assert, Validar si funciona correctamente, si funciona como lo esperamos
+            if (resultado == 2)
+            {
+                Console.WriteLine("APROBADO: Calculadora_Restar_RetornaEntero");
+            }
+            else
+            {
+                Console.WriteLine("FALLIDO: Calculadora_Restar_RetornaEntero");
+            }
+
+        }
+
         [Fact]
         public void Calculadora_Sumar_RetornaLaSuma()
         {
