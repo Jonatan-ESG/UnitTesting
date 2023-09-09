@@ -71,11 +71,11 @@ namespace UnitTesting
             //A - Assert, Validar si funciona correctamente, si funciona como lo esperamos
             if (resultado == 2)
             {
-                Console.WriteLine("APROBADO: Calculadora_Restar_RetornaEntero");
+                Console.WriteLine("APROBADO: Calculadora_Multiplicar_RetornaEntero");
             }
             else
             {
-                Console.WriteLine("FALLIDO: Calculadora_Restar_RetornaEntero");
+                Console.WriteLine("FALLIDO: Calculadora_Multiplicar_RetornaEntero");
             }
 
         }
